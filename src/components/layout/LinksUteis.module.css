@@ -1,0 +1,10 @@
+.fundo{
+    background-color: rgb(31, 31, 31);
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto{
+    color: white;
+}
