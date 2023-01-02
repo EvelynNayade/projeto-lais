@@ -1,8 +1,9 @@
 .navbar{
-    display: flex;
+  display: flex;
   justify-content: space-between;
   background-color: white;
   padding: 1em;
+  font-weight: bold;
 }
 
 .list {
@@ -12,7 +13,7 @@
   }
   
 .item {
-    margin-left: 10px;
+    margin-left: 25px;
   }
 
   .item a {
@@ -23,3 +24,4 @@
   .item a:hover {
     color: #fa2e2e;
   }
+

@@ -12,6 +12,7 @@ import SobreNos from './components/Pages/SobreNos';
 import Parceiros from './components/Pages/Parceiros';
 import Transparencia from './components/Pages/Transparencia'
 import Inicio from './components/Pages/Inicio';
+import EntrarCadastrar from './components/Pages/EntrarCadastrar';
 
 
 
@@ -28,7 +29,8 @@ function App() {
         <Route exact path='/cursos' element={<Cursos/>} /> 
         <Route exact path='/parceiros' element={<Parceiros/>} />     
         <Route exact path='/transparencia' element={<Transparencia/>} />     
-        <Route exact path='/contato' element={<Contato/>} />  
+        <Route exact path='/contato' element={<Contato/>} /> 
+        <Route exact path='/entrar' element={<EntrarCadastrar/>} />
       </Routes>
       </Container>
       <Realizacao/>

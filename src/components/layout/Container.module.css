@@ -14,7 +14,17 @@
     flex-direction: column;
     justify-content: flex-start;
   }
+
+  .centralizar{ 
+    justify-content: center;
+  }
   
   .min-height {
     min-height: 75%;
+  }
+
+
+  .centralizar-topo  {
+    align-items: top;
+    justify-content: center;
   }

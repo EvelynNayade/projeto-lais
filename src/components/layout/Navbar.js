@@ -1,12 +1,15 @@
 import { Link} from "react-router-dom";
 import styles from "./Navbar.module.css";
-import logo from "../../logo-small.png";
+import logo from "../img/logo-small.png";
 import Container from "./Container";
+import Button from "./Button";
+import Busca from "./Busca";
+
 
 function Navbar(){
     return(
         <nav className={styles.navbar}>
-            <Container>
+            <Container customClass="centralizar"> 
             <ul className={styles.list}>
                 <li className={styles.item}>
                     <Link to='/'>
@@ -31,13 +34,14 @@ function Navbar(){
                 <li className={styles.item}>
                     <Link to='/contato'>Contato</Link>
                 </li>
-                <li >
-                    <button>Entrar</button>
-                </li>
-                <li >
-                    <button>Cadastrar</button>
-                </li>
             </ul>
+            <Busca/>
+            <Button customClass="entrar">  
+                <Link to='/entrar'>Entrar</Link>
+            </Button>
+            <Button customClass="cadastrar">  
+                    <Link to='/entrar'>Cadastrar</Link>
+            </Button>
             </Container>   
         </nav>
 

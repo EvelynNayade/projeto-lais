@@ -1,0 +1,33 @@
+.button{
+    background-color: unset;
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 14px;
+    text-decoration: none;
+    padding: 4px 5px;
+    margin-left: 10px;
+    white-space: nowrap;
+    font-weight: bold;  
+    height: 30px;
+}
+
+.entrar{
+    width: 100px;
+    background-color: white;
+    color:rgb(77, 77, 77);
+}
+
+.cadastrar{
+    width: 125px;
+    background-color:rgb(77, 77, 77);
+    color: white;
+}
+
+.entrar a {
+    color: rgb(43, 43, 43);
+    text-decoration: none;
+  }
+
+.cadastrar a {
+    text-decoration: none;
+    color: white;
+  }
