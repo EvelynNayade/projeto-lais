@@ -1,18 +1,19 @@
 import styles from "./Realizacao.module.css"
 import Container from "./Container"
-import logoLais from "../img/1-branca.png"
-import logoURFN from "../img/logotipo_negativo.png"
+import logoLais from "../img//logos/1-branca.png"
+import logoURFN from "../img/logos/logotipo_negativo.png"
 
 function Realizacao(){
     return(
+        <Container>
         <div className={styles.realizacao}>
             <p className={styles.texto}> Realização </p>
-            <Container customClass="centralizar">
-                <img className={styles.imagem} src={logoLais} alt="Logo LAIS"  />
-                <img className={styles.imagem} src={logoURFN} alt="Logo URFN" />
-            </Container>
-            
+            <div className={styles.imagens}>
+            <img src={logoLais} alt="Logo LAIS"  />
+            <img src={logoURFN} alt="Logo URFN" />
+            </div>
         </div>
+        </Container>
     )
 }
 

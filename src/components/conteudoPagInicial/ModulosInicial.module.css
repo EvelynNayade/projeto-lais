@@ -1,0 +1,55 @@
+.fundo{
+    width: 1110px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-family: 'Montserrat';
+    font-style: 'normal';
+    font-weight: 600;
+}
+
+.titulo{
+    width: 346px;
+    padding-top: 114px;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 37px;
+    color: #D2202C;
+}
+
+.fundo ul{
+    width: 550px;
+    justify-content: space-between;
+    margin-top: 30px;
+    display: flex;
+    list-style: none;
+}
+
+.opcoes li{
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.opcoes a{
+    text-decoration: none;
+    color:#2F2E41;
+}
+
+
+.fundo a:hover{
+    color: #D2202C;
+}
+
+.ativo a{
+    text-decoration: underline;
+}
+.cards{
+    padding-top: 30px;
+}
+
+.botao{
+    width: 350px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+

@@ -1,10 +1,11 @@
+import { Link } from 'react-router-dom'
 import styles from './Button.module.css'
 
-function Button(props) {
+function Button({customClass, to, text }) {
   return (
-    <button  className={`${styles.button} ${styles[props.customClass]}`}>
-      {props.children}
-    </button>
+    <Link  className={`${styles.button} ${styles[ customClass]}`} to={to}>
+      {text}
+    </Link>
   )
 }
 

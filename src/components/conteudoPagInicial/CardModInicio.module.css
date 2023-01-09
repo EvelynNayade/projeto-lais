@@ -1,0 +1,64 @@
+.fundo{
+    width: 1110px;
+    height: auto;
+    border-radius: 20px;
+    background-color: #F5F5F7;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fundo img{
+    border-radius: 20px;
+    width: 120px;
+    height: 120px;
+    margin: 20px 0 20px 20px;
+}
+
+.texto{
+    margin: auto;
+    padding: 5px 0;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-style: normal;
+    width: 300px;
+    height: auto;
+    text-align: justify;
+}
+
+.titulo{
+    font-size: 20px;
+    line-height: 24px;
+    color: #2F2E41;
+}
+
+.realizacao{
+    margin-top: 16px;
+    font-size: 13px;
+    line-height: 15.85px;
+    color: #F6303F;
+}
+
+.estatistica{
+    align-items: center;
+    display: flex;
+    width: 438px;
+    margin-left: 20px;
+}
+
+.estatistica p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.7px;
+    line-height: 20px;
+    color: #2F2E41;
+    margin-right: 18px;
+    margin-left: 5px;
+
+}
+
+.botao{
+    margin-right: 20px;
+}

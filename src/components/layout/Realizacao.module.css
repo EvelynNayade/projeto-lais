@@ -1,19 +1,33 @@
 .realizacao{
-    background-color: rgb(167, 37, 37);
-    padding: 75px;
+    background-color: #D2202C;
+    width: 1920px;
+    height: 228px;
     justify-content: center;
-
+    align-items: center;
 }
 
 .texto{
     color: white;
-    font-weight: bold;
-    width: 100px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29.26px;
+    width: 134px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 30px;
+    padding-top: 39px;
+    text-align: center;
 }
 
-.imagem{
-    height: 75px;
+.imagens{
+    width: 549px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 55px;
+}
+
+.imagens img{
+    height: 76px;
 }

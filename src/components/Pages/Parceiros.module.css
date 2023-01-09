@@ -1,0 +1,56 @@
+.margin{
+    margin-top: 100px ;
+}
+
+.navbar{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar li{
+    margin-right: 5px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19.5px;
+    color:black;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #808080;
+}
+
+.navbar a:hover{
+    color: #D2202C;
+}
+
+.conteudo{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.conteudo h1{
+    width: 461px;
+    margin: 40px auto 30px auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #D2202C;
+}
+
+.parceirosGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 400px;
+    width: 1110px;
+}

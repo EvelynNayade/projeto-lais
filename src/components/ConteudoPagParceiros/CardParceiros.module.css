@@ -1,0 +1,29 @@
+.fundo{
+    width: 350px;
+    height: auto;
+}
+
+.fundo img{
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.fundo hr{
+    margin-top: 15px;
+    width: 347px;
+    color: #F6303F;
+    border: 2px solid #F6303F;
+}
+
+.fundo p{
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    text-justify: center;
+    color: #2F2E41;
+}

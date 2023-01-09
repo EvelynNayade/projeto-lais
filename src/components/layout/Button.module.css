@@ -1,33 +1,60 @@
+:root{
+    --cinza-claro:#707070;
+    --branco: rgb(248, 248, 248);
+}
 .button{
     background-color: unset;
-    border: 1px solid rgb(77, 77, 77);
-    border-radius: 14px;
+    border: 1px solid var(--cinza-claro);
+    border-radius: 20px;
     text-decoration: none;
-    padding: 4px 5px;
-    margin-left: 10px;
     white-space: nowrap;
-    font-weight: bold;  
-    height: 30px;
-}
+    font-family: 'Montserrat';
+    font-weight: 600;
+    line-height: 24px;
+    font-style: normal;
+    font-size: 20px;
+}       
 
 .entrar{
-    width: 100px;
-    background-color: white;
-    color:rgb(77, 77, 77);
+    background-color:var(--branco);
+    color:var(--cinza-claro);
+    padding: 8px 30px;
 }
 
 .cadastrar{
-    width: 125px;
-    background-color:rgb(77, 77, 77);
+    background-color: var(--cinza-claro);
+    color:var(--branco);
+    padding: 8px 34.4px;
+}
+
+.verModulo{
+    background-color: var(--cinza-claro); 
     color: white;
+    width: 178px;
+    padding: 8px 29px;
+}
+
+.verMais{
+    background-color: var(--cinza-claro); 
+    font-size: 25px;
+    line-height: 30.5px;
+    color: white;
+    width: px;
+    padding: 10px 119px;
 }
 
 .entrar a {
-    color: rgb(43, 43, 43);
     text-decoration: none;
   }
 
 .cadastrar a {
     text-decoration: none;
-    color: white;
   }
+
+  .verModulo a {
+    text-decoration: none;
+}
+
+.verMais a{
+    text-decoration: none;
+}

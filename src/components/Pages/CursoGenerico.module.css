@@ -1,0 +1,92 @@
+
+.teste {
+    margin-top: 100px;
+}
+
+.infos{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.infos h1{
+    width: 591px;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 30px;
+    align-items: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #D2202C;
+}
+
+.estatistica{
+    width: 1110px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    padding-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+}
+
+.item svg {
+    color: #F6303F;
+    font-size: 25px;
+}
+
+.item p{
+    margin-left: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19.5px;
+    line-height: 24px;
+    color: #2F2E41;
+}
+
+.sobre{
+    width: 1110px;
+    margin: 0 auto
+}
+
+.sobre h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #D2202C;
+    margin: 30px auto;
+}
+
+.sobre h3{
+    margin-bottom: 13px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2F2E41;
+}
+.sobre p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    color: black;
+}
+
+.objetivos{
+    margin-top: 30px;
+}
+

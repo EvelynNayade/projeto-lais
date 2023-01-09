@@ -1,27 +1,46 @@
+:root{
+  --cinza-claro:rgb(77, 77, 77);
+  --branco: rgb(248, 248, 248);
+  --cinza-escuro: rgb(43,43,43);
+  --vermelho: #fa2e2e;
+}
+
 .navbar{
   display: flex;
   justify-content: space-between;
-  background-color: white;
-  padding: 1em;
-  font-weight: bold;
+  background-color: var(--branco);
+  padding-left: 122px;
+  padding-right: 81px;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 1;
+  box-shadow: 0 2px 7.5px var(--cinza-claro);
 }
 
 .list {
     display: flex;
     list-style: none;
-    align-items: center;
+    align-items: flex-start;
   }
   
 .item {
-    margin-left: 25px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-right: 36px;
+    font-size: 20px;
   }
 
   .item a {
-    color: rgb(43, 43, 43);
+    color: #2F2E41;;
     text-decoration: none;
   }
   
   .item a:hover {
-    color: #fa2e2e;
+    color: var(--vermelho) ;
   }
 
+.logotipo{
+  align-items: center;
+  width: 199.5px;
+}

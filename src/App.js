@@ -13,6 +13,7 @@ import Parceiros from './components/Pages/Parceiros';
 import Transparencia from './components/Pages/Transparencia'
 import Inicio from './components/Pages/Inicio';
 import EntrarCadastrar from './components/Pages/EntrarCadastrar';
+import CursoGenerico from './components/Pages/CursoGenerico';
 
 
 
@@ -22,7 +23,7 @@ function App() {
   return (
     <Router>
       <Navbar/>
-      <Container customClass="min-height">
+      <Container customClass="margintop">
       <Routes>
         <Route exact path='/' element={<Inicio/>} />
         <Route exact path='/sobre_nos' element={<SobreNos/>} />
@@ -31,11 +32,12 @@ function App() {
         <Route exact path='/transparencia' element={<Transparencia/>} />     
         <Route exact path='/contato' element={<Contato/>} /> 
         <Route exact path='/entrar' element={<EntrarCadastrar/>} />
+        <Route path='/curso/:id' element={<CursoGenerico/>} />
       </Routes>
       </Container>
       <Realizacao/>
       <LinksUteis/>
-     <Rodape/>
+      <Rodape/>
    </Router>
   )
 

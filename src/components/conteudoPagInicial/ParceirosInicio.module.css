@@ -1,0 +1,20 @@
+.fundo{
+    width: 1110px;
+    height: 277px;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.titulo{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36.57px;
+    color: #D2202C;
+    width: 145px;
+    margin: 0 auto 30px auto;
+}

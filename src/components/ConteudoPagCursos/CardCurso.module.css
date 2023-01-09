@@ -1,0 +1,86 @@
+.fundo{
+    width: 350px;
+    height: 450px;
+    font-family: "Montserrat";
+    margin-bottom: 30px;
+}
+
+.fundo img{
+    height: 200px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.nome{
+    width: 344px;
+    margin: 10px auto 0 auto;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30.5px;
+    color: #2F2E41;
+}
+
+.realizacao{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    color: #F6303F;
+}
+
+.estatistica{
+    align-items: center;
+    display: flex;  
+    width: 340px;
+    margin-top: 10px;
+}
+
+.estatistica p{
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #2F2E41;
+    margin-left: 5px;
+    margin-right: 9px;
+    text-align: left;
+    width: 45px;
+}
+
+.matriculados svg{
+    color:#F6303F;
+    font-size: 19px;
+}
+
+.star{
+    color:#F6303F;
+    font-size: 19px;
+}
+
+.resumo{
+    font-family: "Montserrat";
+    width: 350px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #2F2E41;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.verCurso{
+    display: flex;
+    width: 100px;
+    margin-left:auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #707070;
+    cursor: pointer;
+}
+.verCurso:hover{
+    color: #F6303F;
+}

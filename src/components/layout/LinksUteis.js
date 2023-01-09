@@ -2,54 +2,55 @@ import { Link } from "react-router-dom"
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa/index.esm";
 import Container from './Container'
 import styles from "./LinksUteis.module.css"
-import LogoLais from "../img/2-branca.png"
+import LogoLais from "../img/logos/2-branca.png"
 
 
 
 function LinksUteis(){
     return (
+    <Container>
     <div className={styles.linksUteis}>
-       <Container customClass={"centralizar-topo"}>  
+       <div className={styles.conteudo}>  
             <div className={styles.logo}>
-                <img src={LogoLais} alt={"Logo LAIS"} width="75%"/>
+                <img src={LogoLais} alt={"Logo LAIS"}/>
             </div>
             <div className={styles.links}>
-                <p>Links Úteis</p>
-                <ul className={styles.list}>
-                    <li className={styles.item}>
+                <p>Links Úteis</p>  
+                <ul >
+                    <li >
                         <Link to="/">Inicio</Link>
                     </li>
-                    <li className={styles.item}>
+                    <li >
                         <Link to='/sobre_nos'>Sobre Nós</Link> 
                      </li>
-                    <li className={styles.item}>
+                    <li >
                         <Link to='/cursos'>Módulos</Link> 
                     </li>
-                    <li className={styles.item}>
+                    <li >
                         <Link to='/parceiros'>Parceiros</Link> 
                      </li>
-                    <li className={styles.item}>
+                    <li >
                         <Link to='/transparencia'>Transparência</Link> 
                     </li>
                 </ul>
             </div>
             <div className={styles.redesSociais}>
                 <p>Redes Sociais</p>
-                 <ul className={styles.redes} >
-                    <li className={styles.itemRedes} >
+                 <ul  >
+                    <li  >
                         <Link to="/"><FaFacebook/></Link>
                     </li>
-                    <li className={styles.itemRedes}>
-                        <Link to='/'><FaTwitter/></Link> 
+                    <li >
+                        <Link to='/'> <FaTwitter/> </Link> 
                      </li>
-                    <li className={styles.itemRedes}>
+                    <li >
                         <Link to='/'><FaInstagram /></Link> 
                     </li>
                 </ul>
             </div>
-        </Container>
+        </div>
     </div>
-
+    </Container>
     )
 }
 

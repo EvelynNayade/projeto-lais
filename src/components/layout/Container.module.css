@@ -1,5 +1,5 @@
 .container {
-    width: 1200px;
+    width: 1920px;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -16,7 +16,7 @@
   }
 
   .centralizar{ 
-    justify-content: center;
+    align-items: center;
   }
   
   .min-height {

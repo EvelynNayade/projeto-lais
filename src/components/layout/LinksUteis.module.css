@@ -1,65 +1,88 @@
 .linksUteis{
-  display: flex;
-  background-color: rgb(37, 37, 37);
-  padding: 2em;
-  font-weight: bold;
-  justify-content: center;
+    align-items: center;
+    width: 1920px;
+    height: 332px;
+    background-color:#323237;
+}
+
+.conteudo{
+    width: 952px;
+    height: 225px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 466px;
+    margin-right: 502px;
+    padding-top: 63px;
 }
 
 
-
-.logo{
-    margin: 0;
-    border: 0;
-    padding: 0;
-    width: 200px;
+.logo img{
+   width: 266px;
 }
 
-.links {
+.links p{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 35px;
     color: white;
-    width: 200px;
     text-align: center;
 }
 
-.list{
-    font-size: 12px;
+.links ul{
+    width: 127px;
     list-style: none;
     margin-top: 15px;
-    font-weight: normal;
 }
 
-.item{
+.links li{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 35px;
+    font-style: normal;
     margin-top: 5px;
 }
-.item a {
+.links a {
+    cursor: pointer;
     text-decoration: none;
     color: white;
 }
+.links a:hover{
+    color:#fa2e2e
+}
 
-.redesSociais{
-    font-size: 13px;
+.redesSociais p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35px;
     color: white;
-    width: 200px;
-    text-align: center;
 }
 
 
-.redes{
-    margin-top: 15px;
+.redesSociais ul{
+    width: 166px;
+    margin-top: 21px;
     display: flex;
     color: white;
     list-style: none;
     font-weight: normal;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.itemRedes{
-    font-size: 14px;
-    margin-left: 15px;
-    margin-right: 15px;
+
+.redesSociais svg{
+    font-size: 26px;
+    cursor: pointer;
 }
-.itemRedes a {
+.redesSociais a {
     text-decoration: none;
     color: white;
+
+}
+.redesSociais a:hover {
+    color: #fa2e2e;
 
 }

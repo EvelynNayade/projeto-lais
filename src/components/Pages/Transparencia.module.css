@@ -1,0 +1,176 @@
+.margin{
+    margin-top: 100px ;
+}
+
+.navbar{
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+.navbar li{
+    margin-right: 5px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19.5px;
+    color:black;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #808080;
+}
+
+.navbar a:hover{
+    color: #D2202C;
+}
+
+.conteudo{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.conteudo h1{
+    width: 290px;
+    margin: 40px auto 30px auto;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #D2202C;
+}
+
+.fundo1{
+    width: 1110px;
+    height: 319px;
+    background-color: #F5F5F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.fundo1 h3{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    color: #D2202C;
+}
+
+.linha1{
+    margin: 0 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texto{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.svg{
+    font-size: 25px;
+    color: #D2202C      ;
+}   
+
+.texto p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #2F2E41;
+}
+
+.item1{
+    width: 280px;
+}
+
+.item1 h3{
+    width: 123px;   
+    padding: 0;
+    margin: 13px auto 0 auto;
+}
+.item{
+    width: 205px;
+}
+
+.item2 h3{
+    width: 147px;   
+    padding: 0;
+    margin: 13px auto 0 auto;
+}
+
+.item3{
+    width: 150px;
+}
+
+.item3 h3{
+    width: 134px;   
+    padding: 0;
+    margin: 13px auto 0 auto;
+}
+
+.item4{
+    width: 215px;
+}
+
+.item4 h3{
+    width: 55px;   
+    padding: 0;
+    margin: 13px auto 0 auto;
+}
+
+.linha2{
+    margin: 0 200px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.item5{
+    width: 300px;
+}
+
+.item5 h3{
+    width: 143px;   
+    padding: 0;
+    margin: 13px auto 0 auto;
+}
+
+.item6{
+    width: 300px;
+}
+
+.item6 h3{
+    width: 109px;   
+    padding: 0;
+    margin: 13px auto 0 auto;
+}
+
+.fundo2{
+    display: flex;
+    width: 1110px;
+    margin: 30px auto;
+    justify-content: space-between;
+}
+
+.fundo21{
+    width: 540px;
+    height: 667px;
+    background: #F5F5F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}

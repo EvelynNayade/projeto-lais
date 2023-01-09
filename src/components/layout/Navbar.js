@@ -1,21 +1,20 @@
 import { Link} from "react-router-dom";
 import styles from "./Navbar.module.css";
-import logo from "../img/logo-small.png";
+import logo from "../img//logos/logo.png";
 import Container from "./Container";
 import Button from "./Button";
 import Busca from "./Busca";
+//import SearchBar from '@mkyy/mui-search-bar';
 
 
 function Navbar(){
     return(
         <nav className={styles.navbar}>
             <Container customClass="centralizar"> 
+            <Link to='/'>
+                <img className={styles.logotipo} src={logo} alt="AvaSus"/>
+            </Link>
             <ul className={styles.list}>
-                <li className={styles.item}>
-                    <Link to='/'>
-                        <img src={logo} alt="AvaSus"/>
-                    </Link>
-                </li>
                 <li className={styles.item}>
                     <Link to='/'>Início</Link> 
                 </li>
@@ -36,11 +35,9 @@ function Navbar(){
                 </li>
             </ul>
             <Busca/>
-            <Button customClass="entrar">  
-                <Link to='/entrar'>Entrar</Link>
+            <Button customClass="entrar" to="/entrar" text="Entrar">  
             </Button>
-            <Button customClass="cadastrar">  
-                    <Link to='/entrar'>Cadastrar</Link>
+            <Button customClass="cadastrar" to="/entrar" text="Cadastrar">  
             </Button>
             </Container>   
         </nav>
