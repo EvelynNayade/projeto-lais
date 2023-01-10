@@ -35,6 +35,7 @@
 .conteudo{
     width: 1110px;
     margin: 0 auto;
+    margin-bottom: 60px;
 }
 
 .titulo{
@@ -84,4 +85,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: 600px;
     width: 1110px;
+}
+
+.paginacao{
+    width: 1110px;
+    margin: auto;
 }

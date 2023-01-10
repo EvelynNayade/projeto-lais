@@ -1,13 +1,11 @@
 import { useParams } from "react-router-dom";
-//import Creditos from "../ConteudoPagCursos/Creditos";
+//import Creditos from "../ConteudoPagCursoGen/Creditos";
 import { useEffect, useState } from "react";
 import Cabecalho from "../ConteudoPagCursoGen/Cabecalho";
-//import Info from "../ConteudoPagCursoGen/Info";
 import styles from "./CursoGenerico.module.css";
 import { MdSchedule } from "react-icons/md";
 import {BsFillCalendarCheckFill, BsFillPeopleFill} from 'react-icons/bs'
-import ExibirMatriculados from "../TratamentoNumeros/ExibirMatriculados";
-import Creditos from "../ConteudoPagCursoGen/Creditos";
+import { FaStar } from "react-icons/fa";
 
 
 function CursoGenerico(){   
@@ -25,8 +23,9 @@ function CursoGenerico(){
         setCurso(data)
     })
     .catch((err) => console.log(err))
-
     },[id])
+    const cred = curso.creditos;
+    console.log(cred)
     return( 
             <>
            	<Cabecalho capa={curso.capa} titulo={curso.titulo} parceiros={curso.pareceiros}/>
@@ -40,11 +39,15 @@ function CursoGenerico(){
                 </div>
                 <div className={styles.item}>
                     <BsFillCalendarCheckFill/>
-                    <p>{curso.criado_em}</p> 
+                    <p>Desde: {curso.criado_em}</p> 
                 </div>
                 <div className={styles.item}>
-                <ExibirMatriculados matriculados={curso.matriculados} customClass="detalhes"></ExibirMatriculados>
-                   <p> alunos matriculados </p>
+                    <BsFillPeopleFill></BsFillPeopleFill>
+                   <p>{curso.matriculados} alunos matriculados </p>
+                </div>
+                <div className={styles.item}>
+                    <FaStar/>
+                   <p>{curso.avaliacao} ({curso.numero_avaliacoes} avaliações) </p>
                 </div>
            </div>
            <div className={styles.sobre}>
@@ -60,7 +63,8 @@ function CursoGenerico(){
                     Serão utilizados textos no formato de PDF, vídeos, ilustrações, infográficos, dentre outros recursos.
                 </p>
                 <h2> Créditos </h2>
-                {/*<Creditos creditos={curso.creditos}/>*/}
+                <div className={styles.creditos}>
+                 </div>
             </div>
            
                     

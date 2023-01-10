@@ -19,7 +19,7 @@ function Navbar(){
                     <Link to='/'>Início</Link> 
                 </li>
                 <li className={styles.item}>
-                    <Link to='/sobre_nos'>Sobre Nós</Link> 
+                    <Link to=''>Sobre Nós</Link> 
                 </li>
                 <li className={styles.item}>
                     <Link to='/cursos'>Cursos</Link> 
@@ -31,13 +31,13 @@ function Navbar(){
                     <Link to='/transparencia'>Transparência</Link> 
                 </li>
                 <li className={styles.item}>
-                    <Link to='/contato'>Contato</Link>
+                    <Link to=''>Contato</Link>
                 </li>
             </ul>
             <Busca/>
-            <Button customClass="entrar" to="/entrar" text="Entrar">  
+            <Button customClass="entrar" to='' text="Entrar">  
             </Button>
-            <Button customClass="cadastrar" to="/entrar" text="Cadastrar">  
+            <Button customClass="cadastrar" to='' text="Cadastrar">  
             </Button>
             </Container>   
         </nav>

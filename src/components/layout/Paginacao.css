@@ -1,0 +1,60 @@
+.pagination {
+    display: flex;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.number, .Prox, .Ant{
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color:#545454;
+
+}
+
+.number:hover{
+    cursor: pointer;
+    color: #D2202C;
+}
+.Ant:hover{
+    cursor: pointer;
+    color: #D2202C;
+}
+.Prox:hover{
+    cursor: pointer;
+    color: #D2202C;
+}
+
+.number{
+    width: 40px;
+    height: 40px;
+    background-color: #FAFAFA;
+    border: 1px solid #D9D9D9;
+    border-radius: 0px;
+}
+
+.nAtivo{
+    width: 40px;
+    height: 40px;
+    background-color: #D2202C;
+    border: 1px solid #D2202C;
+    border-radius: 0px;
+    color: white;
+}
+
+
+.Prox{
+    width: 109px;
+    height: 40px;
+    border: 1px solid #D9D9D9;
+    border-radius: 0px 10px 10px 0px;
+}
+.Ant{
+    width: 109px;
+    height: 40px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px 0px 0px 10px;
+}
